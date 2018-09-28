@@ -1,0 +1,18 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.ts src/index.sass"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.10.1",
+    "sass": "^1.14.1",
+    "typescript": "^3.1.1"
+  }
+}
